@@ -1,0 +1,45 @@
+/* Colors */
+
+:root {
+    --background: rgba(250, 250, 250, 1);
+    --default: rgba(30, 30, 30, 1);
+    --white: rgba(255, 255, 255, 1);
+    --charcoal: rgba(35, 61, 77, 1);
+    --pumpkin: rgba(254, 127, 45, 1);
+    --sunglow: rgba(252, 202, 70, 1);
+    --olivine: rgba(161, 193, 129, 1);
+    --polished-pine: rgba(97, 155, 138, 1);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("./fonts/Roboto/Roboto-Medium.ttf");
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    font-family: 'Roboto', sans-serif;
+    color: var(--default);
+}
+
+h1 {
+    width: 98vw;
+    margin: 0;
+    padding: 1vw;
+    font-family: 'Roboto-Medium', sans-serif;
+    background-color: var(--charcoal);
+    border-style: solid;
+    border-width: 0 0 0.25vh 0;
+    border-color: var(--sunglow);
+    color: var(--white);
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mme-ss2020-task-5-pomodoro-timer-starter",
+  "version": "1.0.0",
+  "description": "A simple Pomodoro Timer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server .",
+    "eslint": "eslint --format table resources/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multimedia-Engineering-Regensburg-Tasks/SS20-U05-PomodoroTimer-Starter.git"
+  },
+  "author": "Alexander Bazo <alexander.bazo@ur.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/SS20-U05-PomodoroTimer-Starter/issues"
+  },
+  "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Tasks/SS20-U05-PomodoroTimer-Starterr#readme",
+  "dependencies": {
+    "eslint": "^7.2.0",
+    "http-server": "^0.12.3"
+  }
+}
